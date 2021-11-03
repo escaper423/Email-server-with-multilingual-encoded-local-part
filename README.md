@@ -27,7 +27,10 @@ IMAP또한 마찬가지이다. 단 POP3와 차이점은 메일을 서버에서 �
      사용자 계정 생성 화면<br>
    ![formregister](https://user-images.githubusercontent.com/41889090/140027160-172ba16f-9fca-4533-a5d0-1afafa299d5d.jpg)<br><br>
      사용자 계정 생성 시, 아래 그림과 같이 비밀번호를 인코딩하여 저장한다.<br>
-   ![password](https://user-images.githubusercontent.com/41889090/140026553-5db4201f-979d-4da5-a9f7-6366bbee45dc.JPG)<br>
+   ![password](https://user-images.githubusercontent.com/41889090/140026553-5db4201f-979d-4da5-a9f7-6366bbee45dc.JPG)<br><br>
+     로그인 화면<br>
+   ![image](https://user-images.githubusercontent.com/41889090/140029805-177447f1-d760-4607-8063-d896e140e94e.png)
+
    
 
 
