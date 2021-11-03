@@ -22,9 +22,25 @@ IMAP또한 마찬가지이다. 단 POP3와 차이점은 메일을 서버에서 �
 - 오픈소스 메일서버인 James (2.3.2버전)를 사용하여 SMTP 메일 서버의 역할을 수행하도록 하였다. 또한 구축한 메일 서버에 MySQL을 연동하여, 사용자 및 메일 정보를 기존의 관리방식인 파일이 아닌, 데이터베이스의 형태로 더욱 편리하게 관리할 수 있도록 하였다.
 
 
-## 기능
-- 사용자 계정 생성, 로그인/로그아웃
-- 메일 송신 기능 (다국어 지원서버, 일반 메일서버 모두 가능)
-- 메일 수신함 기능 (메일 조회, 삭제 등 가능)
+## 구현 상세
+- ### 사용자 계정 생성, 로그인/로그아웃
+     사용자 계정 생성 화면<br>
+   ![formregister](https://user-images.githubusercontent.com/41889090/140027160-172ba16f-9fca-4533-a5d0-1afafa299d5d.jpg)<br><br>
+     사용자 계정 생성 시, 아래 그림과 같이 비밀번호를 인코딩하여 저장한다.<br>
+   ![password](https://user-images.githubusercontent.com/41889090/140026553-5db4201f-979d-4da5-a9f7-6366bbee45dc.JPG)<br>
+   
+
+
+- ### 메일 송신 기능 (다국어 지원서버, 일반 메일서버 모두 가능)
+  구축한 메일 서버에서 메일을 송신하는 화면<br>
+  ![sendmail](https://user-images.githubusercontent.com/41889090/140027580-92531e1a-7453-40b1-8f03-a09634649507.jpg)<br><br>
+  송신한 메일이 제대로 수신이 되는지 확인<br>
+  ![image](https://user-images.githubusercontent.com/41889090/140028221-b0434e6c-b712-4228-80f5-1f84a9b9e1cd.png)<br><br>
+  상용 메일 서버와의 송/수신 테스트 및 확인. 예시에서는 gmail을 대상으로 테스트 하였다.<br>
+  ![image](https://user-images.githubusercontent.com/41889090/140027909-126217f3-e357-4af2-811f-ffd8157baa96.png)
+   
+
+- ### 메일 수신함 기능 (메일 조회, 삭제 등 가능)
+
 
 
